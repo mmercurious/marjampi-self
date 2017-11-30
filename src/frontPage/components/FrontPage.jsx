@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../../general/components/Header';
+import Header from '../../util/components/Header';
 
 class FrontPage extends React.Component {
   /*
@@ -11,7 +11,7 @@ class FrontPage extends React.Component {
     return (
       <div>
         <Header />
-
+        
         <div>
           <h2>Marjampi</h2>
           <h1>Welcome fellas</h1>

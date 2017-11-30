@@ -3,15 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.1.0",
-    "react-dom": "^16.1.0",
+    "bootstrap": "^4.0.0-beta.2",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "reactstrap": "^5.0.0-alpha.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "Just trying stuff out",
+  "main": "index.js",
+  "devDependencies": {
+    "postcss-loader": "^2.0.9",
+    "webpack": "^3.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmercurious/marjampi-self.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmercurious/marjampi-self/issues"
+  },
+  "homepage": "https://github.com/mmercurious/marjampi-self#readme"
 }
