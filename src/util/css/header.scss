@@ -1,11 +1,14 @@
+@import '../../assets/css/variables';
+
 .header__container {
+  font-family: 'Yatra One', sans-serif;
   margin: 3rem 5rem;
 
   a {
-    color: darken(gray, 45%);
+    color: $dark-gray;
 
     &:hover {
-      color: blue;
+      color: $link-blue;
     }
   }
 }
