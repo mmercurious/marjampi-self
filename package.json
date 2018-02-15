@@ -2,6 +2,7 @@
   "name": "marjampi-self",
   "version": "0.1.0",
   "private": true,
+  "sasslintConfig": "./.sass-lint.yml",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "node-sass": "^4.7.2",
@@ -20,6 +21,7 @@
   "description": "Just trying stuff out",
   "main": "index.js",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "postcss-loader": "^2.0.9",
     "webpack": "^3.8.1"
   },
