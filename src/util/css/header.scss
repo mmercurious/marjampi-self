@@ -1,4 +1,11 @@
 .header__container {
   margin: 3rem 5rem;
-  color: teal;
+
+  a {
+    color: darken(gray, 45%);
+
+    &:hover {
+      color: blue;
+    }
+  }
 }
