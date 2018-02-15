@@ -1,31 +1,18 @@
 import React from 'react';
 
-import Header from '../../util/components/Header';
+import Bio from './Bio'
 import Footer from '../../util/components/Footer';
+import FrontPageTitle from './FrontPageTitle';
+import Header from '../../util/components/Header';
 
-/*
-  TODO: make into stateless components
-*/
 
-class FrontPage extends React.Component {
-  render() {
-    return (
-      <div>
-        <Header />
-
-        <div>
-          <h2>Marjampi</h2>
-          <h1>Welcome fellas</h1>
-        </div>
-
-        <div>
-          Jea
-        </div>
-        <Footer />
-      </div>
-    );
-  }
-}
-
+const FrontPage = () => (
+  <div>
+    <Header />
+    <FrontPageTitle />
+    <Bio />
+    <Footer />
+  </div>
+);
 
 export default FrontPage;
