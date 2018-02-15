@@ -1,19 +1,26 @@
 {
+  "bio": {
+    "basic": "I am Marja Ahonen, a twenty-something computer science student from Tampere, Finland. I am completing my master's degree studies soon (= I kinda have a topic for my master's degree thesis).",
+    "computors": "I like computors:",
+    "important": "The important stuff:",
+    "it": "I only started programming when I started at the univeristy of Tampere back in 2014. So far I have worked at the university and Solita. At the university I worked in a team programming an Android app. We piloted indoors positioning. At Solita I was part of a team creating a web application for the employees of Solita. With the app the employees could borrow items of Solita and make reservations to them.",
+    "personal": "I like food. I drink a lot of tea and coffee. I want to be as strong as Wonder Woman.",
+    "who": "Who:"
+  },
   "contact": {
     "email": "@",
     "emailAddress": "marja.e.ahonen [ at ] gmail.com",
     "github": "GitHub",
     "githubUser": "mmercurious"
   },
-  "info": {
-    "info": "",
-    "main": "",
-    "subtitle": "Marjampi ",
-    "title": ""
-  },
   "nav": {
     "index": "Index",
     "projects": "Projects",
     "tech": "Tech"
+  },
+  "titles": {
+    "big": "M A R J A M P I",
+    "subtitle": "I have collected some info about myself here",
+    "title": "Hi y'all!"
   }
 }
