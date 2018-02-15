@@ -1,17 +1,18 @@
 import React from 'react';
 
 import Header from '../../util/components/Header';
+import Footer from '../../util/components/Footer';
+
+/*
+  TODO: make into stateless components
+*/
 
 class FrontPage extends React.Component {
-  /*
-    figure out stateless components
-    figure out autocomplete
-  */
   render() {
     return (
       <div>
         <Header />
-        
+
         <div>
           <h2>Marjampi</h2>
           <h1>Welcome fellas</h1>
@@ -20,6 +21,7 @@ class FrontPage extends React.Component {
         <div>
           Jea
         </div>
+        <Footer />
       </div>
     );
   }
