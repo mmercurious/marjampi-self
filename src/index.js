@@ -8,5 +8,9 @@ import registerServiceWorker from './registerServiceWorker';
 // Bootstrap css styles
 import 'bootstrap/dist/css/bootstrap.css';
 
+/*
+  TODO: Use App instead
+*/
+
 ReactDOM.render(<FrontPage />, document.getElementById('root'));
 registerServiceWorker();
