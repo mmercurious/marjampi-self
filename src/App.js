@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+/*
+  TODO: figure out why react-router-dom won't install
+  TODO: configure routing
+*/
+
 class App extends Component {
   render() {
     return (
