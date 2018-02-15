@@ -11,14 +11,14 @@ import strings from '../../assets/content/strings.json';
 const Header = () => (
   <div className="header__container">
     <Nav>
-      <NavItem>
-        <NavLink href="#">{strings.nav.index}</NavLink>
+      <NavItem className="header__nav-item">
+        <NavLink href="#">&gt; {strings.nav.index}</NavLink>
       </NavItem>
-      <NavItem>
-        <NavLink href="#">{strings.nav.projects}</NavLink>
+      <NavItem className="header__nav-item">
+        <NavLink href="#">&gt; {strings.nav.projects}</NavLink>
       </NavItem>
-      <NavItem>
-        <NavLink href="#">{strings.nav.tech}</NavLink>
+      <NavItem className="header__nav-item">
+        <NavLink href="#">&gt; {strings.nav.tech}</NavLink>
       </NavItem>
     </Nav>
   </div>
