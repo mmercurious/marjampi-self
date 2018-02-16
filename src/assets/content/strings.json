@@ -18,6 +18,17 @@
     "projects": "Projects",
     "tech": "Tech"
   },
+  "projects": {
+    "borrowerText": "Solita's own project, created a React web app with a team.",
+    "borrowerTitle": "Borrower",
+    "borrowerSub": "Solita",
+    "citytrackText": "Indoors positioning app for Android.",
+    "citytrackTitle": "CityTrack",
+    "cityTrackSub": "University of Tampere",
+    "marjampiText": "One day this will be my own website.",
+    "marjampiTitle": "Marjampi",
+    "marjampiSub": "This website, check the git!"    
+  },
   "titles": {
     "big": "M A R J A M P I",
     "subtitle": "I have collected some info about myself here",
